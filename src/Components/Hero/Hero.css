@@ -1,0 +1,82 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+}
+.the-best-ad{
+    margin-top: 5rem;
+    color: white;
+    background-color: #363d42;
+    border-radius: 4rem;
+    padding: 20px 12px;
+    width: fit-content;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+.the-best-ad>span{
+    z-index: 2;
+}
+.the-best-ad>div{
+    position: absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    top: 6px;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+/* Hero heading */
+.hero-text{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    gap: 1.5rem;
+    text-overflow: inherit;
+}
+.hero-decs{
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: none;
+    width: 75%;
+    letter-spacing: 1px;
+}
+/* figures */
+.figures{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+.figures>div>span:nth-of-type(1){
+    font-size: 2rem;
+    color: white;
+}
+.figures>div>span:nth-of-type(2){
+    text-transform: uppercase;
+    color: var(--gray);
+}
+
+
+
+
+
+
+
+
+.right-h{
+    flex: 1;
+}
